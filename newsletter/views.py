@@ -27,7 +27,7 @@ def home(request):
         }
         print instance
 
-    return render(request, "home.html", context)
+    return render(request, "base.html", context)
 
 
 def contact(request):
